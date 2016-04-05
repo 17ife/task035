@@ -1,0 +1,68 @@
+body,html,div{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    width:auto;
+    height:auto;
+    position:relative;
+    margin:20px;
+}
+
+.box{
+    width:40px;
+    height:40px;
+    border:1px #708090 solid;
+    display: table-cell;
+}
+
+.box-bord{
+    width:40px;
+    height:20px;
+    border:1px #FFF solid;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cube{
+    position:absolute;
+    width:40px;
+    height:40px;
+    background-color: #FF4949;
+    top: 23px;
+    left:43px;
+    transition: all .8s;
+}
+
+.cube-bar{
+    width: 40px;
+    height: 15px;
+    background-color: #001DFF;
+    
+}
+.orderlist{
+    position: relative;
+}
+#line{
+    width:20px;
+    text-align: center;
+    position: absolute;
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+    font-size: 16px;
+}
+.order{
+    width:200px;
+    height:200px;
+    left:5px;
+    padding:0px;
+    margin-left:20px;
+    font-size: 16px;
+}
+.btn{
+    width:120px;
+    height:30px
+}
+
